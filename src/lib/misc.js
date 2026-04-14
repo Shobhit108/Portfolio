@@ -49,18 +49,18 @@ export const links = [
 
 
 export const stack = [
-  { title: "AWS", logo: aws },
-  { title: "CSS", logo: css },
-  { title: "Express", logo: express },
   { title: "HTML", logo: html },
+  { title: "CSS", logo: css },
   { title: "JavaScript", logo: javascript },
-  { title: "Firebase", logo: firebase },
-  { title: "MongoDB", logo: mongodb },
-  { title: "Node.js", logo: node },
+
   { title: "React", logo: react },
-  { title: "Spline", logo: spline },
   { title: "Tailwind", logo: tailwind },
-  { title: "Vite", logo: vite },
+
+  { title: "Node.js", logo: node },
+  { title: "Express", logo: express },
+  { title: "MongoDB", logo: mongodb },
+
+  { title: "Git", logo: github },
 ];
 
 
