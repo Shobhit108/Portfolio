@@ -136,7 +136,7 @@ const Contact = () => {
         </motion.form>
       </div>
       <div className="absolute bottom-0 left-0 flex items-center justify-center w-full border-t border-muted py-6 pb-4 px-8">
-        <span>&copy; Shobhit Tiwari officials 2025</span>
+       <span>&copy; Shobhit Tiwari officials {new Date().getFullYear()}</span>
       </div>
     </div>
 
