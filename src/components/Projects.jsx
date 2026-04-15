@@ -61,15 +61,15 @@ const Projects = () => {
 
       <div className='layout-x-padding flex justify-around md:justify-end gap-2 md:gap-16 border-muted max-sm:px-2 '>
           <div className='flex flex-col items-center'>
-            <Captions txt={"99+"} classname={"font-semibold"} />
+            <Captions txt={"9+"} classname={"font-semibold"} />
             <span className='text-sm'>Github Repo</span>
           </div>
           <div className='flex flex-col items-center'>
-            <Captions txt={"99+"} classname={"font-semibold"} />
+            <Captions txt={"9+"} classname={"font-semibold"} />
             <span className='text-sm'>Deployments</span>
           </div>
           <div className='flex flex-col items-center'>
-            <Captions txt={"99+"} classname={"font-semibold"} />
+            <Captions txt={"9+"} classname={"font-semibold"} />
             <span className='text-sm'>API Integration</span>
           </div>
       </div>
