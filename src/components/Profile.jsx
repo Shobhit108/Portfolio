@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
 
-import profile from "@/assets/myface.jpg";
+import profile from "@/assets/myface.webp";
 
 import clsx from "clsx";
 import { stack } from "@/lib/misc";

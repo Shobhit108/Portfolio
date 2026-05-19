@@ -15,9 +15,9 @@ const Certifications = () => {
         txt={"Certifications"}
         classname={"layout-padding flex justify-center mt-auto "}
       />
-      <p className="text-white/50 px-2 text-center mx-auto">
-        A showcase of Certifications acquired
-      </p>
+    <p className="text-white/50 px-2 text-center mx-auto">
+  Certifications, internship experience, and technologies explored through hands-on learning.
+</p>
 
       {certifications.map((group) => (
         <div key={group.group} className="mb-auto">

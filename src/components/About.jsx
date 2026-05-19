@@ -71,7 +71,8 @@ useEffect(() => {
     viewport={{ once: true, amount: 0.3 }}
   >
           <PixelatedCanvas
-            src="/meri4.png"
+            src="/meri4.webp"
+            loading="lazy"
             width={420}
             height={420}
             cellSize={3}
@@ -117,6 +118,7 @@ useEffect(() => {
               >
                 <motion.img
                   className="h-10 md:h-14 xl:h-16 scale-[1.4]"
+                  loading="lazy"
                   src={it.logo}
                   initial={{
                     opacity: 0,
@@ -169,7 +171,7 @@ export default About;
 
 function AboutAccordion() {
   return (
-    <div className="relative z-10 flex flex-col flex-1 ">
+    <div className="relative z-10 flex flex-col flex-1">
       <Accordion type="multiple">
         <AccordionItem value="item-1">
           <AccordionTrigger>Who I Am</AccordionTrigger>
@@ -201,6 +203,16 @@ function AboutAccordion() {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
+
+      {/* Resume Button */}
+      <a
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 w-fit rounded-xl bg-purple-600 px-6 py-3 text-[fef3c6] font-medium transition-all duration-300 hover:bg-purple-700 hover:scale-[1.03] shadow-lg shadow-purple-500/20"
+      >
+        View Resume
+      </a>
     </div>
   );
 }
